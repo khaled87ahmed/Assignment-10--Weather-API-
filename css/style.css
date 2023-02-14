@@ -1,0 +1,145 @@
+:root{
+    --vblue:#009AD8;
+    --vgrey:#bfc1c8;
+    
+}
+
+nav{
+    background-color: #1E202B;
+    width: 100%;
+    height: 20%;
+}
+
+nav .box1{
+    height: 40px;
+}
+
+nav h6{
+    font-size: x-small;
+    color: var(--vgrey);
+}
+
+nav h5{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+nav button{
+    background-color: inherit;
+    color:white ;
+    border: #1E202B solid 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius : 50rem;
+    transition: all 0.5s;
+}
+nav .active{
+    color:var(--vblue) ;
+    border: var(--vblue) solid 2px;
+}
+
+nav button:hover{
+    color:var(--vblue) ;
+    border: var(--vblue) solid 2px;
+}
+
+.home{
+    background-image: url(../img/banner.jpg);
+    background-size: 100%;
+    background-color: #1E202B;
+    width: 100%;
+    padding-bottom: 3%;
+    background-repeat: no-repeat;
+}
+
+.home .search{
+    height: 9%;
+    width: 80%;
+    border: #1E202B solid 2px;
+    border-radius : 50rem;
+    background-color: #1E202B;
+    display:inline-flex;
+}
+
+.home  .search input{
+    background-color: #1E202B;
+    width: 100%;
+}
+
+.home .search button{
+    background-color: var(--vblue);
+    color:white ;
+    padding: 15 40 15 40;
+    border-radius : 50rem;
+
+}
+
+.home .top{
+    background-color: rgba(0, 0, 0, 0.173);
+    height: 50px;
+}
+
+.home .sbox .icon, .home .tbox .icon{
+    font-size: xx-large;
+}
+.home .fbox , .home .tbox{
+    background-color: #323544;
+    color: var(--vgrey);
+}
+.home .sbox{
+    background-color: #262936;
+    color: var(--vgrey);
+}
+
+.home .box h1 , .home .box{
+    font-size: 80px;
+}
+
+.lower{
+    background-color: #262936;
+    width: 100%;
+    height: 30%;
+}
+
+.lower .row{
+    width: 78%;
+}
+
+.lower .box{
+    width: 70%;
+    background-color: #1E202B;
+}
+
+.lower .icons{
+    width: fit-content;
+}
+
+
+.lower .icon{
+    background-color: #1E202B;
+    width: 40px;
+    height: 40px;
+    color: var(--vblue);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.lower .icon:hover{
+    background-color:var(--vblue) ;
+    color:white ;
+}
+
+.lower .box input{
+    background-color: inherit;
+}
+
+.lower .box button{
+    background-color: var(--vblue);
+    color: white;
+    border: 0;
+    padding: 2%;
+}
+
+.lower p{
+    color: var(--vgrey);
+}
